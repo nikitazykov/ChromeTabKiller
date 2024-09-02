@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Discarder",
+  "version": "1.0",
+  "description": "Closes all tabs except the current one.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Discard Tabs",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  }
+}
