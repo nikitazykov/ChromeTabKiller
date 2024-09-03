@@ -3,6 +3,7 @@
   "name": "Tab Discarder",
   "version": "1.0",
   "description": "Closes all tabs except the current one.",
+  "homepage_url": "https://github.com/nikitazykov/ChromeTabKiller",
   "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
